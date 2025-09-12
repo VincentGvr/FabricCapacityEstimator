@@ -1,5 +1,9 @@
 # Azure Analysis Services compute usage projection to Microsoft Fabric
 
+## Plan 
+
+
+
 ##  Introduction 
 
 **What is the goal of this Github repository ?**
