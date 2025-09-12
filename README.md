@@ -5,9 +5,9 @@
 **What is the goal of this Github repository ?**
 
 The goal of this repository is to provide a **Power BI template** that will connect to **Azure Analysis Services Logs**, and reproduce Microsoft Fabric Smoothing and Bursting logics to : 
-- Project sizing of the target capacity (be careful, as it only relies on compute usage and does not take into account memory) and avoid frictions once deployed. 
-- Anticipate possible overuse of Microsoft Fabric Capacity and simulate impact of debt mechanism based on true usage
-- Visualize the future improvement of service availability thanks to Background and Interactive smoothing simulation. 
+- **Project sizing of the target capacity** (be careful, as it only relies on compute usage and does not take into account memory) and avoid frictions once deployed. 
+- **Anticipate overuse** of Microsoft Fabric Capacity and **simulate impact of debt mechanism** based on true usage
+- Visualize the **aspiring improvement** of **service availability** thanks to Background and Interactive smoothing simulation. 
 
 **Requirements :**
 - An Azure Analysis Services Instance
