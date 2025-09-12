@@ -14,7 +14,7 @@ I'm able to execute the same queries on both services, and compare the results. 
 
 The goal of this Github is to provide a Power BI template that will connect to Azure Analysis Services Logs, 
 
-**Requirements : **
+**Requirements :**
 - An Azure Analysis Services Instance
 - Diagnostic Settings Enabled on Azure Log Analytics
 - Access to this Azure Analytics workspace 
