@@ -29,6 +29,11 @@ Génération de requête sur le rapport :
 
 Fabric Capacity Metrics : 
 <img width="500" height="298" alt="image" src="https://github.com/user-attachments/assets/1886db8a-a474-435b-a6bf-8af39ac0e79e" />
+Detail :
+<img width="1437" height="336" alt="image" src="https://github.com/user-attachments/assets/eb672229-95c6-490f-8068-60ccfdeff32e" />
 
+
+
+----------------------------------------------
 AAS QPU : 
 <img width="1458" height="517" alt="image" src="https://github.com/user-attachments/assets/f0965af2-3192-4069-968f-a24ae1a1e19e" />
