@@ -14,7 +14,7 @@ Fabric Workspace :
 - AAS to LiveConnected AAS Semantic Model, deployed on Azure Analysis Services 
 - Fabric to Imported Fabric Semantic Model 
 <img width="1782" height="602" alt="image" src="https://github.com/user-attachments/assets/1fa64b83-0ab0-437f-be94-0668af5394c3" />
-![Uploading image.png…]()
+<img width="606" height="479" alt="image" src="https://github.com/user-attachments/assets/a62eb409-c838-4976-a510-fc598bd52fec" />
 
 Linked to Log Analytics
 <img width="606" height="317" alt="image" src="https://github.com/user-attachments/assets/4c3e248c-42c3-45c5-9280-8d3a49261f4a" />
