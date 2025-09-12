@@ -67,5 +67,12 @@ In Log Analytics with Request :
 
 
 ----------------------------------------------
+
+Refreshes : 
+
+<img width="817" height="230" alt="image" src="https://github.com/user-attachments/assets/9f330487-0902-49a4-89ce-181c7d9fd632" />
+
+
+----------------------------------------------
 AAS QPU : 
 <img width="1458" height="517" alt="image" src="https://github.com/user-attachments/assets/f0965af2-3192-4069-968f-a24ae1a1e19e" />
