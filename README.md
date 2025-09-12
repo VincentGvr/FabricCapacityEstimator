@@ -22,3 +22,7 @@ Linked to Log Analytics
 Before : 
 
 <img width="1440" height="508" alt="image" src="https://github.com/user-attachments/assets/76adddde-c9a4-4ed0-8078-66b979bc1958" />
+
+Génération de requête sur le rapport : 
+
+<img width="1453" height="813" alt="image" src="https://github.com/user-attachments/assets/fdc99ca2-5808-4a57-960d-d1ac9df96989" />
