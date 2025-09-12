@@ -7,7 +7,7 @@
 A single model can be deployed in both services, and can be adressed with the same processes and queries. Then, we can compare their consumptions : 
 There is a way to track all queries sent to an AAS Tabular model [^1] and there is a way to track all queries sent to a Fabric Semantic model [^2]. Both logs speak the same langage, called [Trace Events](https://learn.microsoft.com/fr-fr/analysis-services/trace-events/analysis-services-trace-events?view=sql-analysis-services-2025). 
 
-I'm able to execute the same queries on both services, and compare the results. If the results are even, and both workloads are equivalent in terms of CPU Usage and duration, then it means that I can simulate the Smoothing and Bursting logic applied by Microsoft Fabric capacities on the real compute usage of an AAS Instance to project what could be the usage of a Tabular model if deployed in Fabric, in anticipation of a migration. 
+If I execute the same queries on both services, and compare the results and the results comes even, and both workloads are equivalent in terms of CPU Usage and duration, then it means that I can simulate the Smoothing and Bursting logic applied by Microsoft Fabric capacities on the real compute usage of an AAS Instance to project what could be the usage of a Tabular model if deployed in Fabric, in anticipation of a migration. 
 
 [^1]:thanks to Diagnostic Settings Logs sent to Azure Log Analytics, 
 [^2]:thanks to Log Analytics Workspace link. 
