@@ -18,3 +18,7 @@ Fabric Workspace :
 
 Linked to Log Analytics
 <img width="606" height="317" alt="image" src="https://github.com/user-attachments/assets/4c3e248c-42c3-45c5-9280-8d3a49261f4a" />
+
+Before : 
+
+<img width="1440" height="508" alt="image" src="https://github.com/user-attachments/assets/76adddde-c9a4-4ed0-8078-66b979bc1958" />
