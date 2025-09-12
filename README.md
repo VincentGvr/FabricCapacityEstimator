@@ -71,4 +71,4 @@ Once asked for credentials, select **Professional Account** and Sign In using a 
 
 ## Upcoming Improvements
 
-All models of the server used 
+All models of the server projected instead of one.
