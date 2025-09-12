@@ -3,12 +3,12 @@
 Is there a way to anticipate the consumption in Microsoft Fabric of a Semantic Model (or Tabular Model) that is deployed in Azure Analysis Services (AAS) ?
 
 If we start from the point where a single model can be deployed in both services, and can be adressed with the same process and queries, then we can compare their consumptions : 
-There is a way to track all queries sent to an AAS Tabular model[^1] and there is a way to track all queries sent to a Fabric Semantic model[^2]. Both logs speak the same langage, called [Trace Events](https://learn.microsoft.com/fr-fr/analysis-services/trace-events/analysis-services-trace-events?view=sql-analysis-services-2025). 
+There is a way to track all queries sent to an AAS Tabular model [^1] and there is a way to track all queries sent to a Fabric Semantic model [^2]. Both logs speak the same langage, called [Trace Events](https://learn.microsoft.com/fr-fr/analysis-services/trace-events/analysis-services-trace-events?view=sql-analysis-services-2025). 
 
 I'm able then to execute the same code on both services, and compare the results. If the results are even, and both workloads are equivalent in terms of CPU Usage and duration, then it means that I can simulate the Smoothing and Bursting logic applied by Microsoft Fabric capacities on the real compute usage of an AAS Instance to project what could be the usage of a Tabular model if deployed in Fabric, in anticipation of a migration. 
 
-[^1] thanks to Diagnostic Settings Logs sent to Azure Log Analytics, 
-[^2]  thanks to Log Analytics Workspace link. 
+[^1]:thanks to Diagnostic Settings Logs sent to Azure Log Analytics, 
+[^2]:thanks to Log Analytics Workspace link. 
 
 
 AAS : S0 server
