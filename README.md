@@ -51,6 +51,7 @@ Projected Bursting :
 ## How to use it 
 
 Download the .pbit from the repository.
+
 Open the .pbit using Power BI desktop and fill in the parameters respecting the notes. All parameters can be updated after first refresh : 
 
 <img width="1448" height="1175" alt="image" src="https://github.com/user-attachments/assets/c8449122-b073-44e7-a164-c10ba56dc3b1" />
