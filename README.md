@@ -2,7 +2,11 @@
 
 ## Plan 
 
-[Introduction](#Introduction)
+1. [Introduction](#Introduction)
+2. [Scenario](#Scenario)
+3. [The outcomes](#The-outcomes)
+4. [How to use it](#How-to-use-it)
+5. [Upcoming Improvements](#Upcoming-Improvements)
 
 ##  Introduction 
 
@@ -46,6 +50,6 @@ Projected Bursting :
 
 ## How to use it 
 
-## Possible Improvements
+## Upcoming Improvements
 
 All models of the server used 
