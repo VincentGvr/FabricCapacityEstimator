@@ -40,5 +40,8 @@ Projected Smoothing :
 Projected Bursting : 
 <img width="2687" height="1504" alt="image" src="https://github.com/user-attachments/assets/3afdce7f-f266-4e05-85f3-809f3fe2014d" />
 
-
 ## How to use it 
+
+## Possible Improvements
+
+All models of the server used 
