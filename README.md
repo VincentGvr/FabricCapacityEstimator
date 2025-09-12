@@ -26,3 +26,5 @@ Before :
 Génération de requête sur le rapport : 
 
 <img width="1453" height="813" alt="image" src="https://github.com/user-attachments/assets/fdc99ca2-5808-4a57-960d-d1ac9df96989" />
+
+<img width="500" height="298" alt="image" src="https://github.com/user-attachments/assets/1886db8a-a474-435b-a6bf-8af39ac0e79e" />
