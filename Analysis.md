@@ -65,3 +65,11 @@ Log Analytics without Model name CU(s) :
 ----------------------------------------------
 AAS QPU : 
 <img width="1458" height="517" alt="image" src="https://github.com/user-attachments/assets/f0965af2-3192-4069-968f-a24ae1a1e19e" />
+
+
+----------------------------------------------
+
+SQL Server + SSAS Tabular : 
+
+Deploy Same Tabular model :
+<img width="1317" height="504" alt="image" src="https://github.com/user-attachments/assets/94c5da73-1035-4e1d-9780-5b893fb3b9b5" />
