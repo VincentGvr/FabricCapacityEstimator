@@ -73,3 +73,9 @@ SQL Server + SSAS Tabular :
 
 Deploy Same Tabular model :
 <img width="1317" height="504" alt="image" src="https://github.com/user-attachments/assets/94c5da73-1035-4e1d-9780-5b893fb3b9b5" />
+
+Create a Trace folder : 
+<img width="756" height="733" alt="image" src="https://github.com/user-attachments/assets/554d6b29-2801-4b93-b8d8-f3eac8dbb516" />
+
+Change info in the trace XMLA code : 
+<img width="909" height="730" alt="image" src="https://github.com/user-attachments/assets/d0eee580-adc4-46c3-b1c8-6cc5b8b8dacd" />
