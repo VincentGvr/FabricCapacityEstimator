@@ -12,14 +12,13 @@
 			<Name>XE_Trace_viguyonv_SSAS_Tabluar</Name>
 			<ddl300_300:XEvent>
 				<event_session 
-					name="SSAS detailed xe trace"
+					name="XE_Trace_viguyonv_SSAS_Tabluar"
 					dispatchLatency="1"
 					maxEventSize="4"
 					maxMemory="4"
 					memoryPartitionMode="none"
 					eventRetentionMode="allowSingleEventLoss"
-					trackCausality="true"
-				>
+					trackCausality="true">
 					<event package="AS" name="QueryBegin"/>
 					<event package="AS" name="QueryEnd"/>
 					<event package="AS" name="ProgressReportBegin"/>
@@ -28,7 +27,7 @@
 					<event package="AS" name="DiscoveryEnd"/>
 					
 					<target package="Package0" name="event_file">
-						<parameter name="filename" value="C:\TraceOutput\XE_Trace_viguyonv_rubiscube.xel" />
+						<parameter name="filename" value="C:\TraceOutput\XE_Trace_viguyonv_SSAS_Tabluar.xel" />
 						<parameter name="max_file_size" value="1024" />
 						<parameter name="max_rollover_files" value="20" />
 					</target>
