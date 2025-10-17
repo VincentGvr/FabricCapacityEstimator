@@ -1,0 +1,5 @@
+<Delete xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<Object>
+		<TraceID>XE_Trace_viguyonv_SSAS_Tabluar</TraceID>
+	</Object>
+</Delete>
