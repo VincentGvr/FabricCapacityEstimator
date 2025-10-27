@@ -70,7 +70,3 @@ Open the .pbit using Power BI desktop and fill in the parameters respecting the 
 When filled in, click Load. 
 
 Once asked for credentials, select **Professional Account** and Sign In using a user that is authorized reading Logs on the Azure Log Analytics Workspace. 
-
-## Upcoming Improvements
-
-All models of the server projected instead of one.
