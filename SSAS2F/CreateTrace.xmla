@@ -21,6 +21,8 @@
 					trackCausality="true">
 					<event package="AS" name="QueryBegin"/>
 					<event package="AS" name="QueryEnd"/>
+					<event package="AS" name="CommandBegin"/>
+					<event package="AS" name="CommandEnd"/>
 					<event package="AS" name="ProgressReportBegin"/>
 					<event package="AS" name="ProgressReportEnd"/>
 					<event package="AS" name="DiscoveryBegin"/>
