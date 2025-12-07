@@ -31,28 +31,13 @@ The goal of this repository is to provide a **Power BI template** that will conn
 ## The outcomes
 
 AAS Real Usage : 
-<img width="1343" height="757" alt="image" src="https://github.com/user-attachments/assets/31338871-d4fb-4fca-b3b6-512f5e6b12b6" />
+<img width="1820" height="1032" alt="image" src="https://github.com/user-attachments/assets/71b0d0eb-d8db-48c1-8166-dfbdcdc0a10d" />
 
 Projected Smoothing :  
-<img width="2688" height="1509" alt="image" src="https://github.com/user-attachments/assets/4372407d-f7a9-4fdb-a0f2-23cc4739fda1" />
+<img width="2278" height="1281" alt="image" src="https://github.com/user-attachments/assets/9db9b40b-7c3b-44f8-8085-7c3c513743bf" />
 
 Projected Bursting : 
-<img width="2687" height="1504" alt="image" src="https://github.com/user-attachments/assets/3afdce7f-f266-4e05-85f3-809f3fe2014d" />
-
-## Scenario
-
-**Is there a way to anticipate the consumption in Microsoft Fabric of a Semantic Model (or Tabular Model) that is deployed in Azure Analysis Services (AAS) ?**
-
-A single model can be deployed in both services, and can be adressed with the same processes and queries. We can compare their consumptions, as there is a way to track all queries sent to an AAS Tabular model [^1] and and queries sent to a Fabric Semantic model [^2]. Both logs speak the same langage, called [Trace Events](https://learn.microsoft.com/fr-fr/analysis-services/trace-events/analysis-services-trace-events?view=sql-analysis-services-2025). 
-
-If I execute the same queries on both services, and compare the results and the results comes even, and if both workloads are equivalent in terms of CPU Usage and duration, then both engines produce the same compute usage. 
-
-Now, knowing that I can monitor in depth the usage of a Microsoft Fabric Semantic Model, I can reproduce the logic of Smoothing and Bursting applied by Microsoft Fabric capacities to compute usage, based on the Fabric Capacity Metrics App and the Log Analytics queries. 
-
-If Microsoft Fabric & AAS produce the same compute usage, it means that I can simulate the same Smoothing and Bursting logic on the real compute usage of an AAS Instance to project what could be the usage of a Tabular model if deployed in Fabric, in anticipation of a migration. 
-
-[^1]:thanks to Diagnostic Settings Logs sent to Azure Log Analytics, 
-[^2]:thanks to Log Analytics Workspace link. 
+<img width="2283" height="1288" alt="image" src="https://github.com/user-attachments/assets/1ca5c3b3-dc4d-42b8-9164-999aad51af55" />
 
 ## How to use it 
 
@@ -76,3 +61,18 @@ Open the .pbit using Power BI desktop and fill in the parameters respecting the 
 When filled in, click Load. 
 
 Once asked for credentials, select **Professional Account** and Sign In using a user that is authorized reading Logs on the Azure Log Analytics Workspace. 
+
+## Scenario
+
+**Is there a way to anticipate the consumption in Microsoft Fabric of a Semantic Model (or Tabular Model) that is deployed in Azure Analysis Services (AAS) ?**
+
+A single model can be deployed in both services, and can be adressed with the same processes and queries. We can compare their consumptions, as there is a way to track all queries sent to an AAS Tabular model [^1] and and queries sent to a Fabric Semantic model [^2]. Both logs speak the same langage, called [Trace Events](https://learn.microsoft.com/fr-fr/analysis-services/trace-events/analysis-services-trace-events?view=sql-analysis-services-2025). 
+
+If I execute the same queries on both services, and compare the results and the results comes even, and if both workloads are equivalent in terms of CPU Usage and duration, then both engines produce the same compute usage. 
+
+Now, knowing that I can monitor in depth the usage of a Microsoft Fabric Semantic Model, I can reproduce the logic of Smoothing and Bursting applied by Microsoft Fabric capacities to compute usage, based on the Fabric Capacity Metrics App and the Log Analytics queries. 
+
+If Microsoft Fabric & AAS produce the same compute usage, it means that I can simulate the same Smoothing and Bursting logic on the real compute usage of an AAS Instance to project what could be the usage of a Tabular model if deployed in Fabric, in anticipation of a migration. 
+
+[^1]:thanks to Diagnostic Settings Logs sent to Azure Log Analytics, 
+[^2]:thanks to Log Analytics Workspace link. 
