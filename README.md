@@ -12,15 +12,32 @@
 
 **What is the goal of this Github repository ?**
 
-The goal of this repository is to provide a **Power BI template** that will connect to **Azure Analysis Services Logs**, and reproduce Microsoft Fabric Smoothing and Bursting logics to : 
+The goal of this repository is to provide a **Power BI template** that will connect to **Azure Analysis Services or SSAS Logs**, and reproduce Microsoft Fabric Smoothing and Bursting logics to : 
 - **Project sizing of the target capacity** based on compute and not only on model size to avoid frictions once deployed. 
 - **Anticipate overuse** of Microsoft Fabric Capacity and **simulate impact of debt mechanism** based on true usage
 - Visualize the **aspiring improvement** of **service availability** thanks to background and interactive smoothing simulation. 
 
 **Requirements :**
+**For AAS :** 
 - An Azure Analysis Services instance
 - Diagnostic Settings enabled on Azure Log Analytics
 - Access to this Azure Analytics workspace 
+
+**For SSAS :** 
+- Have extracted XEvents Traces from the SSAS On Premises Instance
+- Have transformed XEvents Traces to structured flat file
+- Have loaded flat file to a KQL Database (ADX or Fabric Event House) 
+
+## The outcomes
+
+AAS Real Usage : 
+<img width="1343" height="757" alt="image" src="https://github.com/user-attachments/assets/31338871-d4fb-4fca-b3b6-512f5e6b12b6" />
+
+Projected Smoothing :  
+<img width="2688" height="1509" alt="image" src="https://github.com/user-attachments/assets/4372407d-f7a9-4fdb-a0f2-23cc4739fda1" />
+
+Projected Bursting : 
+<img width="2687" height="1504" alt="image" src="https://github.com/user-attachments/assets/3afdce7f-f266-4e05-85f3-809f3fe2014d" />
 
 ## Scenario
 
@@ -36,17 +53,6 @@ If Microsoft Fabric & AAS produce the same compute usage, it means that I can si
 
 [^1]:thanks to Diagnostic Settings Logs sent to Azure Log Analytics, 
 [^2]:thanks to Log Analytics Workspace link. 
-
-## The outcomes
-
-AAS Real Usage : 
-<img width="1343" height="757" alt="image" src="https://github.com/user-attachments/assets/31338871-d4fb-4fca-b3b6-512f5e6b12b6" />
-
-Projected Smoothing :  
-<img width="2688" height="1509" alt="image" src="https://github.com/user-attachments/assets/4372407d-f7a9-4fdb-a0f2-23cc4739fda1" />
-
-Projected Bursting : 
-<img width="2687" height="1504" alt="image" src="https://github.com/user-attachments/assets/3afdce7f-f266-4e05-85f3-809f3fe2014d" />
 
 ## How to use it 
 
