@@ -1,4 +1,6 @@
-# Analysis Services Legacy (AAS or SSAS) compute usage projection to Power BI/Microsoft Fabric
+# Tabular Legacy Server (AAS or SSAS) compute usage projection to Power BI/Fabric semantic model 
+
+This repository provides a forecasting solution of CU(s) consumption model in the case of a migration from legacy Tabular Server to Power BI or Fabric. 
 
 ## Plan 
 
